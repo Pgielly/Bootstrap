@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,6 +17,7 @@
         <?php include_once 'templates/header.php' ?>
         </header>
         <main>
+        <?php if (isset($_SESSION['mail'])) :?>
             <div class="container">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
@@ -62,6 +64,11 @@
                     <p> Le lierre commun est une plante grimpante sur les arbres, murs et maisons ou rampante sur le sol : bois, jardins. La plante préfère le climat tempéré : Europe sauf grand nord.</p>
                 </div>
             </div>
+            <?php else: ?>
+                <div class="container">
+                <p class="h2 text-danger"> VEUILLEZ VOUS CONNECTER POUR ACCÉDER À CETTE PAGE…</p>
+                </div>
+            <?php endif ?>
         </main>
 
         <!-- Optional JavaScript -->

@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,6 +17,7 @@
         <?php include_once 'templates/header.php' ?>
         </header>
         <main>
+        <?php if (isset($_SESSION['mail'])) :?>
             <div class="container">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
@@ -60,6 +62,11 @@
                     <p> Probablement originaire d'Afrique de l'Est ou de l'Inde, elle est présente sur tous les continents, notamment dans le midi de la France et en Corse. Il est souvent présent dans les terrains vagues, rocailleux et sert de plante ornementale dans les villes.</p>
                 </div>
             </div>
+            <?php else: ?>
+                <div class="container">
+                <p class="h2 text-danger"> VEUILLEZ VOUS CONNECTER POUR ACCÉDER À CETTE PAGE…</p>
+                </div>
+            <?php endif ?>
         </main>
 
         <!-- Optional JavaScript -->

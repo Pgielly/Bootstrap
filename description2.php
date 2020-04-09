@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,6 +17,7 @@
         <?php include_once 'templates/header.php' ?>
         </header>
         <main>
+        <?php if (isset($_SESSION['mail'])) :?>
             <div class="container">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
@@ -59,6 +61,11 @@
                     <p> Le Laurier rose aime les endroits ensoleillé. Il supporte même la sécheresse, il n'aime pas le gel malgrès qu'une variété peu supporter la température jusqu'à -12C°.</p>
                 </div>
             </div>
+            <?php else: ?>
+                <div class="container">
+                <p class="h2 text-danger"> VEUILLEZ VOUS CONNECTER POUR ACCÉDER À CETTE PAGE…</p>
+                </div>
+            <?php endif ?>
         </main>
 
         <!-- Optional JavaScript -->

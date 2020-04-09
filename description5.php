@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,6 +17,7 @@
         <?php include_once 'templates/header.php' ?>
         </header>
         <main>
+        <?php if (isset($_SESSION['mail'])) :?>
             <div class="container">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
@@ -61,6 +63,11 @@
                     <p> Présente dans toute l'Europe, elle est plus rare dans le Nord et ne dépasse pas les 1500 m d'altitude. La plante aime particulièrement les sols argileux ou calcaires et croît dans les lieux frais, le long des haies, des chemins, des décharges publiques et au bord des cours d'eau.</p>
                 </div>
             </div>
+            <?php else: ?>
+                <div class="container">
+                <p class="h2 text-danger"> VEUILLEZ VOUS CONNECTER POUR ACCÉDER À CETTE PAGE…</p>
+                </div>
+            <?php endif ?>
         </main>
 
         <!-- Optional JavaScript -->

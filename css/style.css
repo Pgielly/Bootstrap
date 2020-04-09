@@ -9,10 +9,10 @@ body{
     border-color: #28a745;
 }
 
-.switchForm{
+#switchForm{
     font-style: italic;
 }
-.switchForm:hover{
+#switchForm:hover{
     cursor: pointer;
 }
 .form-control{
