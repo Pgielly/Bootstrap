@@ -29,7 +29,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">L'Aconitum napellus</h5>
               <p class="card-text">Les plantes de l’espèce Aconitum napellus sont réputées les plus toxiques du monde.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description1.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -37,7 +37,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le Laurier rose</h5>
               <p class="card-text">Dans le Midi, le laurier rose est parfois utilisé comme mort au rat. C'est dire...</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description2.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -45,7 +45,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le Muguet</h5>
               <p class="card-text">Le muguet, cette plante que l'on aime tant offrir à l'occasion du 1er mai.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description3.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -53,7 +53,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le Ricin</h5>
               <p class="card-text">Le ricin est une plante appréciée des jardiniers, car elle apporte de belles touches de couleurs.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description4.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -61,7 +61,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">La grande ciguë</h5>
               <p class="card-text">Dans la Grèce antique, la ciguë était offerte comme dernière boisson aux condamnés à mort.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description5.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -69,7 +69,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le Lierre</h5>
               <p class="card-text">Le lierre est une plante grimpante très répandue. Elle est également allergisante...</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description6.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -77,7 +77,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le colchique</h5>
               <p class="card-text">Le colchique -- celui quin selon la chanson, pousse dans les prés et marque la fin de l'été.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description7.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -85,7 +85,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le gui</h5>
               <p class="card-text">Le gui sous lequel on a coutume de s'embrasser au moment des fêtes de fin d'année.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description8.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
@@ -93,7 +93,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">La belladone</h5>
               <p class="card-text">Au Moyen-Âge, la belladone était employée dans des rituels de magie noire.</p>
-              <a href="#" class="btn  btn-success stretched-link">En savoir plus</a>
+              <a href="description9.php" class="btn  btn-success stretched-link">En savoir plus</a>
             </div>
           </div>
           <div class="card flex m-2 shadow p-3 mb-5 bg-white rounded " style="width: 18rem;">
@@ -101,7 +101,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Le chèvrefeuille</h5>
               <p class="card-text">Le chèvrefeuille des haies est parfois utilisé comme barrière végétale dans les jardins.</p>
-              <a href="#" class="btn btn-success stretched-link ">En savoir plus</a>
+              <a href="description10.php" class="btn btn-success stretched-link ">En savoir plus</a>
             </div>
           </div>
         </div>
