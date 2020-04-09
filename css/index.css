@@ -1,0 +1,10 @@
+.background{
+    background-image: url("../img/backgroundindex.jpg.jpg");
+    background-size: cover;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}

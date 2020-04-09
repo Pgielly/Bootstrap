@@ -1,0 +1,29 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.switchForm{
+    font-style: italic;
+}
+.switchForm:hover{
+    cursor: pointer;
+}
+.form-control{
+    width: 200px;
+    height: 35px;
+}
+
+.container{
+    width: 450px;
+}
+
+.bg-light {
+    background-color: #f8f9fad2!important;
+}
