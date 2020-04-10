@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Plantes | Acceuil </title>
   </head>
 
@@ -19,8 +20,8 @@
 
     <main>
       <div class="flex  container ">
-        <p class="h1 text-center"> Les plantes les plus toxiques de France.</p>
-        <p class="text-justify mt-4 text-center "> Ici nous vous présentons les 10 plantes les plus toxiques de France. Pour assurer leur défense que certaines plantes sécrétent du poison. Celles-ci peuvent entrainer la mort, nous vous les présentons ci-dessous.</p>
+        <p class="h1 text-center text-light"> Les plantes les plus toxiques de France.</p>
+        <p class="text-justify mt-4 text-center text-light"> Ici nous vous présentons les 10 plantes les plus toxiques de France. Pour assurer leur défense que certaines plantes sécrétent du poison. Celles-ci peuvent entrainer la mort, nous vous les présentons ci-dessous.</p>
       </div>
 
         <div class="d-flex flex-wrap justify-content-center ">
@@ -106,7 +107,9 @@
           </div>
         </div>
     </main>
-
+    <footer class="page-footer font-small opacity pt-4">
+      <?php include_once 'templates/footer.php' ?>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -27,3 +27,7 @@ body{
 .bg-light {
     background-color: #f8f9fad2!important;
 }
+
+.opacity{
+    background-color: rgba(255, 255, 255, 0.774);
+}

@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Plantes | Description </title>
   </head>
 
@@ -69,7 +70,10 @@
                 <p class="h2 text-danger"> VEUILLEZ VOUS CONNECTER POUR ACCÉDER À CETTE PAGE…</p>
                 </div>
             <?php endif ?>
-        </main>
+        </main>    
+        <footer class="page-footer font-small bg-success pt-4">
+            <?php include_once 'templates/footer.php' ?>
+        </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
