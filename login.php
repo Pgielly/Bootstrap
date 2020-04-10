@@ -54,7 +54,7 @@
             </form>
         </div>
     </main>
-    <footer class="page-footer font-small mt-5 opacity pt-4">
+    <footer class="page-footer font-small mt-5 opacity fixed-bottom pt-4">
         <?php include_once 'templates/footer.php' ?>
     </footer>
 
