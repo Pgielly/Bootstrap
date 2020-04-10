@@ -17,18 +17,18 @@
             <form action="./controllers/log.php" method="post">
                 <div class="form-group ">
                     <label for="exampleInputEmail1">Adresse Mail :</label>
-                    <input type="email" name="mail"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" name="mail"class="form-control" aria-describedby="emailHelp">
                     <small id="emailHelp" class="form-text text-muted">Nous ne partagerons pas votre e-mail à quelqu'un d'autre.</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Mot de passe :</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" name="password" class="form-control" >
                 </div>
                 <button type="submit" class="btn btn-primary"> Connexion </button>
                 <small class="form-text text-muted"> Vous n'avez pas encore de compte ?<span id="switchForm"class="text-primary"> Inscrivez-vous.</span></small>
             </form>
         </div>
-        <div class="container bg-light mt-5 p-3 rounded" id="second">
+        <div class="container bg-light mt-5 p-3 rounded d-none" id="second">
         <p class="h1 text-center"> Inscription </p>
 
             <form action="./controllers/log.php" method="post">
@@ -38,23 +38,23 @@
                 </div>
                 <div class="form-group ">
                     <label for="exampleInputEmail1">Adresse Mail :</label>
-                    <input type="email" name="mail"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" name="mail"class="form-control" aria-describedby="emailHelp">
                     <small id="emailHelp" class="form-text text-muted">Nous ne partagerons pas votre e-mail à quelqu'un d'autre.</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Mot de passe :</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" name="password" class="form-control" >
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Confirmation du mot de passe :</label>
-                    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" name="password" class="form-control" >
                 </div>
                 <button type="submit" class="btn btn-primary"> Connexion </button>
                 <small class="form-text text-muted"> Vous avez déjà un compte ?<span id="switchForm"class="text-primary"> Connectez-vous.</span></small>
             </form>
         </div>
     </main>
-    <footer class="page-footer font-small opacity pt-4">
+    <footer class="page-footer font-small mt-5 opacity pt-4">
         <?php include_once 'templates/footer.php' ?>
     </footer>
 

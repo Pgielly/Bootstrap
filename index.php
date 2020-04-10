@@ -19,7 +19,7 @@
     </header>
 
     <main>
-      <div class="flex  container ">
+      <div class="flex container ">
         <p class="h1 text-center text-light"> Les plantes les plus toxiques de France.</p>
         <p class="text-justify mt-4 text-center text-light"> Ici nous vous présentons les 10 plantes les plus toxiques de France. Pour assurer leur défense que certaines plantes sécrétent du poison. Celles-ci peuvent entrainer la mort, nous vous les présentons ci-dessous.</p>
       </div>
